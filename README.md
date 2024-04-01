@@ -4,7 +4,8 @@
 
 # 100 Days of JavaScript Interview Questions Challenge
 
-Welcome to the **100 Days of JavaScript Interview Questions Challenge**! 🚀 This challenge is your ticket to mastering JavaScript concepts and acing technical interviews with style.
+Welcome to the **100 Days of JavaScript Interview Quest
+ions Challenge**! 🚀 This challenge is your ticket to mastering JavaScript concepts and acing technical interviews with style.
 
 ## 🎯 Overview
 

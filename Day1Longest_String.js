@@ -4,10 +4,10 @@ const findLongest=(str)=> {
     }
     wordsArr = str.split(" ");
     // 1st way to Solve ----->
-    // console.log(wordsArr);
-    // wordsArrr = wordsArr.sort((a,b)=> a.length-b.length);
-    //  console.log(wordsArrr);
-    //  return wordsArrr.at(-1);
+    console.log(wordsArr);
+    wordsArrr = wordsArr.sort((a,b)=> a.length-b.length);
+     console.log(wordsArrr);
+     return wordsArrr.at(-1);
     //2nd way to solve ------>
     return wordsArr.reduce((acc,curr)=>
          (curr.length > acc.length ? curr : acc),""
@@ -15,5 +15,5 @@ const findLongest=(str)=> {
     console.log(wordsArr); ;
 }
 
-const str = "javascript school city building newspaper salmankhanjscode";
+const str = "javascript school city building BillGatesKing newspaper";
 console.log(findLongest(str));
