@@ -1,4 +1,4 @@
-// Question checkTriangle Type🔻
+// Question:- checkTriangle Type🔻
 
 const checkTringleType = (a,b,c)=>{
     if(a===b && b===c ) return "equilateral";
