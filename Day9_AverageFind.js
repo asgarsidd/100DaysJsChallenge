@@ -1,10 +1,10 @@
 const averageFind = (arr) => {
-  // Preferable way for Web Dev
+  // Preferable way for Web Dev 💁
   const arr2 = arr.reduce((acc, curr) => {
     return acc + curr;
   }, 0);
   return arr2 / arr.length;
-  // Through looping (naive)👇
+  // Through looping (naive) 👇
   let sum = null;
   for (let i = 0; i < arr.length; i++) {
     if (arr.length > 1) {
