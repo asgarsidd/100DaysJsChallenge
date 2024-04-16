@@ -1,4 +1,5 @@
 const sumOfDigits = (str) => {
+  
   let arr = Array.from(String(str), Number);
   console.log(arr);
   const sum = arr.reduce((acc, curr) => {
