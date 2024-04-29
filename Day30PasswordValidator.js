@@ -1,8 +1,6 @@
-
-
 const passwordValidator = (password) => {
 /*
-    ---? Criteria : Password Validating ?---
+    ---? Criteria : Password⏳ Validating ?---
 
 --1-- Password must contain at least one lowercase, oneUpperCase letter, and one digit.
 --2-- Length of Password must be at least 8 characters.
