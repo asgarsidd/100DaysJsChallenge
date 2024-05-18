@@ -1,0 +1,23 @@
+#userData {
+    border: 1px solid black;
+  }
+  
+  #userData th, #userData td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  #userData th {
+    background-color: #f2f2f2;
+  }
+  
+  #userData td {
+    border-left: 2px solid red;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  
