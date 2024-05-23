@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(./image/Draggele.jpg);
+  background-size: cover;
+}
+.card {
+  position: absolute;
+  width: 480px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0, 43);
+  border-radius: 1rem;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  border: 1px solid #ffffff20;
+}
+.card .card-body .logo img {
+  max-width: 140px;
+}
+.card header {
+  cursor: all-scroll;
+  text-align: center;
+  user-select: none;
+  padding: 1rem;
+  border-bottom: 1px solid #ffffff20;
+}
+.card .card-body {
+  padding: 1rem;
+  border-bottom: 1px solid #ffffff20;
+}
+.card .card-body .logo {
+  text-align: center;
+}
+.card .card-body .logo h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Handrawn',sans-serif;
+}
+p{
+    text-justify: auto;
+}
+
+.card .card-body a {
+  display: inline-block;
+  background-color: #fdd90aa1;
+  color: #7a7575;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+}
+.card .card-body ul {
+  margin-top: 0;
+}
+.card .card-body h4 {
+  margin: 10px 0;
+}
+.card footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.card footer button{
+    padding: 0.3rem 0.6rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3 ease ;
+}
+.card footer button.Linkedin:hover{
+    background-color: rgba(11, 11, 252, 0.685);
+    color: #fff;
+}
+.card footer button.instagram:hover{
+    background-color: rgba(252 175 69);
+    color: #fff;
+}
+.card footer button.reset:hover{
+    background-color: rgb(119, 119, 129);
+    color: yellow;
+}
