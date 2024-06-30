@@ -10,7 +10,7 @@ function getHighestGrade(students) {
     }
   }
 
-  return highestGrade; // 🎉 Return the highest grade found
+  return highestGrade; // 🎉 Returns the highest grade found
 }
 
 const students = [
