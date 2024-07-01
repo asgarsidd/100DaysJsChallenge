@@ -1,4 +1,4 @@
-function subarraySum(nums, k) {
+function subarraySum(nums, input) {
   let count = 0; // 🧮 Counter for subarrays
   let sum = 0; // 💰 Running sum
   const sumMap = new Map(); // 🗺️ Map to store sum frequencies
@@ -7,8 +7,8 @@ function subarraySum(nums, k) {
   for (let num of nums) {
     sum += num; // 🧺 Add current number to running sum
 
-    if (sumMap.has(sum - k)) {
-      count += sumMap.get(sum - k); // 🎯 Found a subarray with sum k
+    if (sumMap.has(sum - input)) {
+      count += sumMap.get(sum - input); // 🎯 Found a subarray with sum input
     }
 
     // 📊 Update sum frequency in map
@@ -23,12 +23,6 @@ function subarraySum(nums, k) {
 }
 
 // 🧪 Test cases
-// Example 1
-const nums1 = [1, 1, 1];
-const k1 = 2;
-console.log(subarraySum(nums1, k1)); // 🖨️ Output: 2
+console.log(subarraySum([1, 1, 1], 2)); // 🖨️ Output: 2
 
-// Example 2
-const nums2 = [1, 2, 3];
-const k2 = 3;
-console.log(subarraySum(nums2, k2)); // 🖨️ Output: 2
+console.log(subarraySum([1, 2, 3], 3)); // 🖨️ Output: 2
