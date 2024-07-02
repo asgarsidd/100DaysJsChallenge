@@ -1,7 +1,7 @@
 function subarraySum(nums, input) {
   let count = 0; // 🧮 Counter for subarrays
   let sum = 0; // 💰 Running sum
-  const sumMap = new Map(); // 🗺️ Map to store sum frequencies
+  const sumMap = new Map(); // 🗺️ Map to store sum frequency
   sumMap.set(0, 1); // 🏁 Initialize map with sum 0 occurring once
 
   for (let num of nums) {
