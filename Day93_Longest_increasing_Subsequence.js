@@ -17,6 +17,6 @@ function longestIncreasingSubsequence(arr) {
   return lis.reduce((a, b) => (a.length > b.length ? a : b));
 }
 
-// 🔢 Test the function with a sample array
+// 🔢 Test function with a sample array
 const sampleArray = [10, 22, 9, 33, 21, 50, 41, 60, 80];
 console.log(longestIncreasingSubsequence(sampleArray)); // Output: [10, 22, 33, 50, 60, 80]
