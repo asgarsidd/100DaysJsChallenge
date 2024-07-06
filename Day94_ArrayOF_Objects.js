@@ -1,40 +1,16 @@
-//This is Group of cars in Array of object formats
+//This is Group of cars 🚗  in Array of object formats
 let cars = [
-  {
-    color: "purple",
-    type: "minivan",
-    registration: new Date("2017-01-03"),
-    capacity: 7,
+  {color: "purple",type: "minivan",registration: new Date("2017-01-03"),capacity: 7,
   },
-  {
-    color: "red",
-    type: "station wagon",
-    registration: new Date("2018-03-03"),
-    capacity: 5,
+  {color: "red",type: "station wagon",registration: new Date("2018-03-03"),capacity: 5,
   },
-  {
-    color: "blue",
-    type: "sedan",
-    registration: new Date("2019-05-01"),
-    capacity: 4,
+  {color: "blue",type: "sedan",registration: new Date("2019-05-01"),capacity: 4,
   },
-  {
-    color: "silver",
-    type: "SUV",
-    registration: new Date("2020-02-15"),
-    capacity: 6,
+  {color: "silver",type: "SUV",registration: new Date("2020-02-15"),capacity: 6,
   },
-  {
-    color: "black",
-    type: "coupe",
-    registration: new Date("2016-08-20"),
-    capacity: 2,
+  {color: "black",type: "coupe",registration: new Date("2016-08-20"),capacity: 2,
   },
-  {
-    color: "red",
-    type: "truck",
-    registration: new Date("2015-11-10"),
-    capacity: 3,
+  {color: "red",type: "truck",registration: new Date("2015-11-10"),capacity: 3,
   },
 ];
 
@@ -47,19 +23,27 @@ let redFilterCar = cars.filter((car) => {
   return car.color === "red";
 });
 console.log(redFilterCar);
-/* Output 
+/* Output :-
 [
-  {
-    color: 'red',
-    type: 'station wagon',
-    registration: new Date('2018-03-03T00:00:00.000Z'),
-    capacity: 5
+  {color: 'red',type: 'station wagon',registration: new Date('2018-03-03T00:00:00.000Z'),capacity: 5
   },
-  {
-    color: 'red',
-    type: 'truck',
-    registration: new Date('2015-11-10T00:00:00.000Z'),
-    capacity: 3
+  {color: 'red',type: 'truck',registration: new Date('2015-11-10T00:00:00.000Z'),capacity: 3
   }
 ] */
 console.log(carByRed);
+
+// 🛠️Transform objects of an array by using Array.map
+// Small == 1-3, medium == 4-5, large == 6-9
+
+let sizes = cars.map((car) => {
+  if (car.capacity <= 3) {
+    return "small 🚗";
+  }
+  if (car.capacity <= 5) {
+    return "medium 🚙";
+  }
+  return "large 🚐";
+});
+console.log(sizes);
+// ['large]
+    
