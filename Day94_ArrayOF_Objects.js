@@ -45,5 +45,5 @@ let sizes = cars.map((car) => {
   return "large 🚐";
 });
 console.log(sizes);
-// ['large]
+
     
