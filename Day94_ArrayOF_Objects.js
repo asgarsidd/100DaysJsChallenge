@@ -14,7 +14,7 @@ let cars = [
   },
 ];
 
-//Find an object in an array by its values - Array.find for single first index Output which matched.
+//Find an object in an array by its values --- Array.find for single first index Output which matched.
 let carByRed = cars.find((car) => car.color === "red");
 console.log(carByRed);
 
