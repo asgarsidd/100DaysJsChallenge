@@ -33,7 +33,7 @@ console.log(redFilterCar);
 console.log(carByRed);
 
 // 🛠️Transform objects of an array by using Array.map
-// Small == 1-3, medium == 4-5, large == 6-9
+// Small === 1-3, medium === 4-5, large === 6-9
 
 let sizes = cars.map((car) => {
   if (car.capacity <= 3) {
