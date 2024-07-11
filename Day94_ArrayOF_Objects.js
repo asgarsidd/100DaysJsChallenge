@@ -18,7 +18,7 @@ let cars = [
 let carByRed = cars.find((car) => car.color === "red");
 console.log(carByRed);
 
-// Find an object in an array by its values - Filter which select all the car Which are red.
+// Find an object in an array by its values -- Filter which select all the car Which are red.
 let redFilterCar = cars.filter((car) => {
   return car.color === "red";
 });
@@ -32,7 +32,7 @@ console.log(redFilterCar);
 ] */
 console.log(carByRed);
 
-// 🛠️Transform objects of an array by using Array.map
+// 🛠️ Transform objects of an array by using Array.map
 // Small === 1-3, medium === 4-5, large === 6-9
 
 let sizes = cars.map((car) => {
