@@ -13,6 +13,6 @@ const objectsEqual = (a, b) => {
   return Object.keys(a).every((key) => b[key]);
 };
 
-console.log(objectsEqual(objA, objB));   // 🖨️ true
-console.log(objectsEqual(objA, objC));   // 🖨️ true
-console.log(objectsEqual(objA, objD));   // 🖨️ false
+console.log(objectsEqual(objA, objB)); // 🖨️ true
+console.log(objectsEqual(objA, objC)); // 🖨️ true
+console.log(objectsEqual(objA, objD)); // 🖨️ false
