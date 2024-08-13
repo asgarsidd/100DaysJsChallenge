@@ -1,7 +1,7 @@
 /**
  * ? Day98- Collect books from array of objects and return collection of books as an array 
  * !  - - - - - - - - - - - - - - - - - -
- * TODO:- DAY98 of 100DaysOfCode ---------------- - - --- - --------
+ * TODO:- DAY98 of 100DaysOfCode ----------------------------
  */
 
 let friends = [
