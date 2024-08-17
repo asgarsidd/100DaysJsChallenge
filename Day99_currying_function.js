@@ -1,6 +1,6 @@
 /**
  * ? Day99- How to write and add method using javascript currying concept?
- * !  - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * !  - - - - ------ - - - - - - - - - - - - - - - - - - - - - -
  * TODO:- DAY99 of 100DaysOfCode ----------------------------
  */
 
