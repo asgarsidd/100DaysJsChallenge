@@ -1,7 +1,7 @@
 /**
  * ? Day100- Given an array of integers, return the largest gap between elements of the sorted version of that array.
- * !  - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - -
- * TODO:- DAY100 of 100DaysOfCode In Javascript ----------------------------
+ * !  - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * TODO:- DAY100 of 100DaysOfCode In Javascript -------------------------------
  */
 
 const largestGap = (arr) => {
